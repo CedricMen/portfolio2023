@@ -8,8 +8,21 @@
 # testing
 /coverage
 
+# Environment variables file
+.env
+
 # production
 /build
+/dist
+
+# OS and IDE-specific files
+.DS_Store
+Thumbs.db
+*.log
+*.log.*
+*.iml
+.idea
+.vscode
 
 # misc
 .DS_Store
@@ -21,3 +34,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local npm configuration
+.npmrc
+
+# Yarn integrity file
+.yarn-integrity
