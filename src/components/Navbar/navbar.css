@@ -1,0 +1,101 @@
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 35px;
+  margin: 0;
+
+  width: 100vw;
+  height: 75px;
+  border-bottom: #835CED 1px solid;
+
+  overflow: hidden;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  z-index: 50;
+  background: #411FA1;
+
+  
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.375rem;
+  text-decoration: none;
+
+  font-family: 'DM Sans', Arial, serif;
+}
+
+.navbar a:hover {
+  color: #ECDF5C;
+  transform: scale(1.01);
+  text-decoration: none;
+}
+.navbar span {
+  color: #ECDF5C;
+  font-size: 60px;
+}
+
+/*  nav + hamburger */
+
+.sidenav {
+  /* Your existing styles for the closed state */
+  width: 0;
+  overflow: hidden;
+  /* ... other styles */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ECDF5C;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #411FA1;
+  display: block;
+  transition: 0.2s;
+
+  font-family: 'Epilogue', Arial, serif;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 105.47%;
+}
+
+.sidenav a:hover {
+  color: #835CED;
+}
+
+.sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5) {
+  margin-left: 190px;
+}
+
+.sidenav .closeMenu {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px;
+  margin-left: 50px;
+}
+
+.sidenav.open {
+  /* Your styles for the open state */
+  width: 100%;
+  /* ... other styles */
+}
+
+
