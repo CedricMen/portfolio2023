@@ -1,0 +1,108 @@
+/* section-contact */
+.contact-section {
+    height: 100%;
+    padding-top: 45px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ECDF5C;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    width: 100vw;
+}
+
+.info-contact {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.info-contact>* {
+    margin: 80px 0 0 0;
+}
+
+.cv-btn {
+    margin: 15% 0 0 0;
+}
+
+/* Icon-Contact */
+.sociaux {
+    display: flex;
+    justify-content: center;
+}
+
+.sociaux a {
+    margin: 0 50px 0 0;
+
+    color: #ECDF5C;
+}
+
+.sociaux a:hover {
+    color: #FFF47D;
+}
+
+.sociaux a:active {
+    position: relative;
+    top: 2px;
+    color: #ECDF5C;
+}
+
+.fab {
+    font-size: 4.688rem;
+}
+
+a .ico-sketchfab {
+    background-image: url(../../assets/sketchfab-logo.svg), none;
+    width: 75px;
+    height: 75px;
+}
+
+a .ico-sketchfab:hover {
+    background-image: url(../../assets/sketchfab-logo-hover.svg), none;
+}
+
+/* formulaire */
+
+.formulaire-contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+}
+
+.formulaire-contact form>label,
+textarea {
+    margin: 50px 0 0 0;
+    border-radius: 0;
+}
+
+.formulaire-contact form>input,
+textarea {
+    background: none;
+}
+
+.formulaire-contact form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #ECDF5C 1px solid;
+    border-radius: 0;
+}
+
+.formulaire-contact a img:hover {
+    transform: scale(1.05);
+}
+
+.formulaire-contact a img:active {
+    transform: scale(1.01);
+}
+#section-contact{
+    z-index: 2;
+}
+#tsparticles{
+    z-index: 1;
+}

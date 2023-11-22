@@ -21,7 +21,7 @@
   z-index: 50;
   background: #411FA1;
 
-  
+
 }
 
 .navbar a {
@@ -37,6 +37,7 @@
   transform: scale(1.01);
   text-decoration: none;
 }
+
 .navbar span {
   color: #ECDF5C;
   font-size: 60px;
@@ -63,6 +64,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -80,7 +82,10 @@
   color: #835CED;
 }
 
-.sidenav a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5) {
+.sidenav a:nth-child(2),
+a:nth-child(3),
+a:nth-child(4),
+a:nth-child(5) {
   margin-left: 190px;
 }
 
@@ -97,5 +102,3 @@
   width: 100%;
   /* ... other styles */
 }
-
-

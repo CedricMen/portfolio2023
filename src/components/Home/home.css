@@ -1,0 +1,58 @@
+/*  demo-reel */
+.video-demo-bg {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+.video-demo-bg iframe {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  pointer-events: none;
+}
+
+/*  banderolle */
+
+.banderolle {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  left: 0;
+  top: 35%;
+
+  background: rgba(131, 92, 237, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* texte-banderolle */
+.hero h1 {
+  margin: 35px 0 0 0;
+}
+
+.hero p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 193px;
+  height: 50px;
+
+  margin: 25px 0;
+
+  line-height: 25px;
+
+  font-size: 24px;
+}
+
+.hero a {
+  margin: 0;
+}
+
+.index-body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+}
