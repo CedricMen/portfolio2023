@@ -7,10 +7,6 @@ import { loadSlim } from "tsparticles-slim";
 const Contact = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        //await loadFull(engine);
         await loadSlim(engine);
     }, []);
 
@@ -23,22 +19,22 @@ const Contact = () => {
       <section class="contact-section" id="section-contact">
         <div class="grid-contact">
           <div class="info-contact">
-            <h2>Contact: <br /> <span class="texte-alt-color"><a href="mailto:cedricmenard1@gmail.com">cedricmenard1@gmail.com</a></span></h2>
+            <h2>Contact: <br /> <span class="texte-alt-color"><a class="mail" href="mailto:cedricmenard1@gmail.com">cedricmenard1@gmail.com</a></span></h2>
             <h2>Téléphone: <br /> <span class="texte-alt-color">+1 (438)-399-8349</span></h2>
             <div class="cv-btn">
               <a download href="/Cedric_Menard_CV___FR.pdf"><button type="button">Voir mon CV</button></a>
             </div>
             <div class="sociaux">
-              <a href="https://www.linkedin.com/in/c%C3%A9dric-m%C3%A9nard-40ab621a8/" target="_blank"><i
+              <a href="https://www.linkedin.com/in/c%C3%A9dric-m%C3%A9nard-40ab621a8/" target="_blank" rel="noopener noreferrer"><i
                 class="fab fa-linkedin"></i></a>
-              <a href="https://www.youtube.com/channel/UC4ELHn9lArnMBaZl6ErUjHg/" target="_blank"><i
+              <a href="https://www.youtube.com/channel/UC4ELHn9lArnMBaZl6ErUjHg/" target="_blank" rel="noopener noreferrer"><i
                 class="fab fa-youtube-square"></i></a>
-              <a href="https://github.com/CedricMen" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="https://sketchfab.com/cedricmenard" target="_blank"><div class="ico-sketchfab"></div></a>
+              <a href="https://github.com/CedricMen" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+              <a href="https://sketchfab.com/cedricmenard" target="_blank" rel="noopener noreferrer"><div class="ico-sketchfab"></div></a>
             </div>
           </div>
           <div class="formulaire-contact">
-            <a href="mailto:cedricmenard1@gmail.com"></a>
+            <a href="mailto:cedricmenard1@gmail.com"> </a>
           </div>
         </div>
       </section>

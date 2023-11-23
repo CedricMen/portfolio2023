@@ -91,10 +91,26 @@ a:nth-child(5) {
 
 .sidenav .closeMenu {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 60px;
-  margin-left: 50px;
+  top: 0px;
+  right: 0px;
+
+  
+  color: #835CED;
+  padding: 18px 0px 8px 100px;
+  color: #411FA1;
+  display: block;
+  transition: 0.2s;
+
+  font-family: 'Epilogue', Arial, serif;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 50%;
+}
+
+.sidenav .closeMenu:hover {
+  color: #835CED;
+  background: #ECDF5C;
+  border: transparent;
 }
 
 .sidenav.open {

@@ -20,12 +20,12 @@ const Navbar = () => {
         +
       </span>
       <div className={`sidenav ${isMenuOpen ? 'open' : ''}`} id="mySidenav">
-        <a className="closeMenu" onClick={closeMenu}>
+        <button href='#' rel="noopener noreferrer" className="closeMenu" onClick={closeMenu}>
           -
-        </a>
+        </button>
         <Link to='/' onClick={closeMenu}>&#8226; Accueil</Link>
-        <Link>&#8226; Projets</Link>
-        <Link>&#8226; À propos</Link>
+        <Link to='/' onClick={closeMenu}>&#8226; Projets</Link>
+        <Link to='/about' onClick={closeMenu}>&#8226; À propos</Link>
         <Link to='/contact' onClick={closeMenu}>&#8226; Contact</Link>
       </div>
     </div>

@@ -13,7 +13,7 @@ const Home = () => {
         <section class="hero">
           <div class="banderolle">
             <h1>Cédric Ménard</h1>
-            <p>Développeur <span class="texte-alt-color">&</span>
+            <p>Développeur Web <span class="texte-alt-color">& </span>
               Créateur média</p>
             <Link to='/contact'><button type="button">Voir mes projets</button></Link>
           </div>
