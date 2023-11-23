@@ -44,7 +44,6 @@ const About = () => {
                 </div>
             </div>
             <section class="competences">
-
                 <h1 class="titre-page">Mes compétences</h1>
                 <div class="comp-grid">
                     <div class="comp-1"

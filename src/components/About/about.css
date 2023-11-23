@@ -918,16 +918,18 @@
 .interets {
     height: 100vh;
     width: 100vw;
-    padding: 10px 0 0 10px;
+    padding: 50px 0 0 10px;
     background: #ECDF5C;
     color: #000;
     font-size: 24px;
   }
   .interets h1 {
+    margin-left: 90px;
     color: #411FA1;
   }
   
   .interet-grid {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 100px 865px auto 560px 100px;
     grid-template-rows: 1fr;
