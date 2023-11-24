@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './about.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <div className="about" id="about">
             <h1 class="titre-page">À propos</h1>
@@ -17,10 +22,10 @@ const About = () => {
                             domaines suivant :</p>
                         <ul>
                             <li>Développement Front-End</li>
-                            <li>Utilisation de Cms et de PHP</li>
+                            <li>Utilisation de React et Angular</li>
+                            <li>Utilisation de CMS et de PHP</li>
                             <li>Création d’expérience intéractive</li>
                             <li>Prototypage</li>
-                            <li>Modélisation/Animation 3D</li>
                         </ul>
                     </div>
                 </div>
@@ -51,9 +56,10 @@ const About = () => {
                         <a href="">
                             <div class="img-comp-1"></div>
                         </a>
-                        <p>Pour mes projets <span class="texte-alt2-color">front-end</span>, il me faut évidemment utiliser <span
-                            class="texte-alt2-color">Webstorm</span> pour faire du <span
-                                class="texte-alt2-color">HTML/CSS</span> pour créer un
+                        <p>Pour mes projets <span class="texte-alt2-color">front-end</span>, J'utilise les dernier outils incluant <span
+                            class="texte-alt2-color">React</span> avec <span
+                            class="texte-alt2-color">VS Code</span> pour faire du <span
+                                class="texte-alt2-color">HTML/SASS/CSS/JS</span> pour créer un
                             code de qualité.</p>
                     </div>
                     <div class="comp-2"
@@ -91,7 +97,7 @@ const About = () => {
                 <h1 class="titre-page">Mes Intérêts</h1>
                 <div class="interet-grid">
                     <div class="texte-interet"
-                        data-aos="fade-up" data-aos-duration="3000">
+                        data-aos="fade-up" data-aos-offset="400">
                         <p>Je suis professionnellement et personnellement <span class="texte-alt2-color">multidisciplinaire</span>,
                             je fais de l’escalade, je suis
                             cinéphile,
@@ -110,7 +116,7 @@ const About = () => {
                             <span class="texte-alt2-color">créatifs</span>.</p>
                     </div>
                     <div class="imgs-interets"
-                        data-aos="fade-up" data-aos-duration="4000">
+                        data-aos="fade-up" data-aos-offset="400">
                         <div class="img-interets-1"></div>
                         <div class="img-interets-2"></div>
                         <div class="img-interets-3"></div>

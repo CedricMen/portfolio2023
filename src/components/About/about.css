@@ -1,6 +1,6 @@
 /* ------------ a-propos ------------ */
 .a-propos {
-    padding-top: 75px;
+    padding-top: 90px;
     height: 100%;
     width: 100vw;
     display: grid;
@@ -85,7 +85,7 @@
     font-size: 24px;
     font-weight: 600;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 18%;
   }
   
@@ -104,7 +104,7 @@
     font-size: 24px;
     font-weight: 600;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 5%;
   }
 
@@ -123,7 +123,7 @@
     font-size: 24px;
     font-weight: 600;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 15%;
 
   }
@@ -144,7 +144,7 @@
   
   .boiteSouris {
     width: 24px;
-    margin: 55px auto;
+    margin: 45px auto;
     display: flex;
     justify-content: center;
   }
@@ -464,7 +464,7 @@
   /* ------------ compétences ------------ */
 .competences {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     padding: 50px 0 0 10px;
     background: #ECDF5C;
     color: #000;
@@ -507,14 +507,12 @@
   .img-comp-1 {
     height: 193px;
     width: 193px;
-    background: url("../../assets/html.png") no-repeat;
+    background: url("../../assets/vs_code-icon.png") no-repeat;
+    transition: all 0.5s ease;
   }
   
-  .comp-1:hover {
-  
-    .img-comp-1 {
-      background-image: url("../../assets/css.png");
-    }
+  .comp-1:hover .img-comp-1{
+      background-image: url("../../assets/react-icon.png");
   }
   
   .comp-2 {
@@ -543,11 +541,8 @@
     background: url("../../assets/Figma.png") no-repeat;
   }
   
-  .comp-2:hover {
-  
-    .img-comp-2 {
+  .comp-2:hover .img-comp-2{
       background-image: url("../../assets/photoshop.png");
-    }
   }
   
   .comp-3 {
@@ -576,11 +571,8 @@
     background: url("../../assets/wordpress.png") no-repeat;
   }
   
-  .comp-3:hover {
-  
-    .img-comp-3 {
+  .comp-3:hover .img-comp-3 {
       background-image: url("../../assets/php.png");
-    }
   }
   
   .comp-4 {
@@ -609,10 +601,9 @@
     background: url("../../assets/unity.png") no-repeat;
   }
   
-  .comp-4:hover {
-    .img-comp-4 {
+  .comp-4:hover .img-comp-4 {
+    
       background-image: url("../../assets/touchdesigner.png");
-    }
   }
 
   @media screen and (max-width: 1366px) {
@@ -651,31 +642,27 @@
     }
     .comp-1 {
       width: 500px;
-  
-      p {
-        margin: 0 10px;
-      }
+    }
+    .comp-1 p {
+      margin: 0 10px;
     }
     .comp-2 {
       width: 500px;
-  
-      p {
-        margin: 0 10px;
-      }
+    }
+    .comp-2 p {
+      margin: 0 10px;
     }
     .comp-3 {
       width: 500px;
-  
-      p {
-        margin: 0 10px;
-      }
+    }
+    .comp-3 p {
+      margin: 0 10px;
     }
     .comp-4 {
       width: 500px;
-  
-      p {
-        margin: 0 10px;
-      }
+    }
+    .comp-4 p {
+      margin: 0 10px;
     }
   }
   
@@ -845,11 +832,8 @@
       width: 127px;
       background: url("../../assets/figma-mobile.png") no-repeat;
     }
-    .comp-2:hover {
-  
-      .img-comp-2 {
+    .comp-2:hover .img-comp-2 {
         background-image: url("../../assets/photoshop-mobile.png");
-      }
     }
   
     .comp-3 {
@@ -877,10 +861,8 @@
       width: 127px;
       background: url("../../assets/wordpress-mobile.png") no-repeat;
     }
-    .comp-3:hover {
-        .img-comp-3 {
+    .comp-3:hover .img-comp-3 {
         background-image: url("../../assets/php-mobile.png");
-      }
     }
     .comp-4 {
       grid-column-start: 1;
@@ -907,18 +889,16 @@
       width: 127px;
       background: url("../../assets/unity-mobile.png") no-repeat;
     }
-    .comp-4:hover {
-      .img-comp-4 {
+    .comp-4:hover .img-comp-4 {
         background-image: url("../../assets/touch-designer-mobile.png");
-      }
     }
   }
 
   /* ------------ intérêts ------------ */
 .interets {
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
-    padding: 50px 0 0 10px;
+    padding: 80px 0 0 10px;
     background: #ECDF5C;
     color: #000;
     font-size: 24px;
