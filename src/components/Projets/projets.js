@@ -24,7 +24,7 @@ const Projets = () => {
                             <button type="button">Voir le projet</button>
                         </Link>
                     </div>
-                    <a href="course-lumiere.html" class="course-lumiere"></a>
+                    <Link to="/course-lumiere" class="course-lumiere"></Link>
                 </div>
                 <div class="projet-b"
                     data-aos="fade-left"
@@ -33,11 +33,11 @@ const Projets = () => {
                         <p>WordPress | HTML/CSS/JS</p>
                         <h2>Refonte d’un Site</h2>
                         <p>Projet Scolaire</p>
-                        <a href="refonte-site.html">
+                        <Link to="/refonte-site">
                             <button type="button">Voir le projet</button>
-                        </a>
+                        </Link>
                     </div>
-                    <a href="refonte-site.html" class="refonte"></a>
+                    <Link to="/refonte-site" class="refonte"></Link>
                 </div>
 
                 <div class="projet-c"
@@ -47,11 +47,11 @@ const Projets = () => {
                         <p>Figma | Expérience Intéractive</p>
                         <h2>Verum</h2>
                         <p>Projet Scolaire</p>
-                        <a href="verum.html">
+                        <Link to="/verum">
                             <button type="button">Voir le projet</button>
-                        </a>
+                        </Link>
                     </div>
-                    <a href="verum.html" class="verum"></a>
+                    <Link to="/verum" class="verum"></Link>
                 </div>
 
                 <div class="projet-d"
@@ -61,11 +61,11 @@ const Projets = () => {
                         <p>WordPress | WooCommerce</p>
                         <h2>Site eCommerce</h2>
                         <p>Projet Scolaire</p>
-                        <a href="site-ecommerce.html">
+                        <Link to="/site-ecommerce">
                             <button type="button">Voir le projet</button>
-                        </a>
+                        </Link>
                     </div>
-                    <a href="site-ecommerce.html" class="ecommerce"></a>
+                    <Link to="/site-ecommerce" class="ecommerce"></Link>
                 </div>
 
                 <div class="projet-e"
@@ -75,11 +75,11 @@ const Projets = () => {
                         <p>Blender | Projection Mapping</p>
                         <h2>Grosse Citrouille</h2>
                         <p>Projet Scolaire</p>
-                        <a href="projection-mapping.html">
+                        <Link to="/projection-mapping">
                             <button type="button">Voir le projet</button>
-                        </a>
+                        </Link>
                     </div>
-                    <a href="projection-mapping.html" class="mapping"></a>
+                    <Link to="/projection-mapping" class="mapping"></Link>
                 </div>
 
                 <div class="projet-f"
@@ -89,11 +89,11 @@ const Projets = () => {
                         <p>3D | Jeux Vidéo</p>
                         <h2>Disco Chef TV</h2>
                         <p>Projet Scolaire</p>
-                        <a href="disco-chef-tv.html">
+                        <Link to="/disco-chef-tv">
                             <button type="button">Voir le projet</button>
-                        </a>
+                        </Link>
                     </div>
-                    <a href="disco-chef-tv.html" class="disco"></a>
+                    <Link to="/disco-chef-tv" class="disco"></Link>
                 </div>
 
             </section>

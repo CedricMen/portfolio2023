@@ -46,7 +46,7 @@ const CourseLumiere = () => {
             <section class="single-demo-video"
                     data-aos="zoom-in-down" data-aos-duration="1000">
                 <h1>Vidéo Démo</h1>
-                <iframe src="https://www.youtube.com/embed/5W9M3tTiSGw?controls=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/5W9M3tTiSGw?autoplay=1&loop=1&playlist=5W9M3tTiSGw&mute=1&controls=1"></iframe>
             </section>
 
             <section class="projet-section"

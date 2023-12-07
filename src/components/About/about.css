@@ -4,7 +4,7 @@
 }
 .a-propos {
     padding-top: 35px;
-    height: 100%;
+    height: 90vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 100px 700px auto 700px 100px;
@@ -148,8 +148,10 @@
   .boiteSouris {
     width: 24px;
     margin: 30px auto;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+
   }
     
   
@@ -476,7 +478,6 @@
 
   .competences h1 {
     color: #411FA1;
-    margin-left: 90px;
   }
   
   .comp-grid {
@@ -907,7 +908,6 @@
     font-size: 24px;
   }
   .interets h1 {
-    margin-left: 90px;
     color: #411FA1;
   }
   

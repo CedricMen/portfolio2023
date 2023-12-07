@@ -41,13 +41,13 @@ const About = () => {
                         <div class="qualite-3"><p>Polyvalent</p></div>
                     </div>
                 </div>
-
-            </section>
-            <div class="boiteSouris">
+                <div class="boiteSouris">
                 <div class="souris">
                     <div class="roue"></div>
                 </div>
             </div>
+            </section>
+            
             <section class="competences">
                 <h1 class="titre-page">Mes compétences</h1>
                 <div class="comp-grid">

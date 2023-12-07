@@ -7,34 +7,67 @@
     background: url(../../assets/touchDesigner-icon.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
 }
 .titre-logo-projet-2{
     background: url(../../assets/blender-icon.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
 }
 .titre-logo-projet-3{
     background: url(../../assets/python-icon.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+    
 }
 .course-programmation{
     background: url(../../assets/course-programmation.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 1600px;
+    height: 900px;
 }
 .modele-voiture-sans-texture{
     background: url(../../assets/course-voiture-sans-texture.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 1600px;
+    height: 900px;
 }
+.modele-voiture-avec-texture{
+    background: url(../../assets/course-voiture-avec-texture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-voiture-rendu-final{
+    background: url(../../assets/course-voiture-rendu-cycle.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.course-acceuil{
+    background: url(../../assets/course-voiture-avec-texture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.course-sol-3d{
+    background: url(../../assets/course-bg-sol-blender.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+

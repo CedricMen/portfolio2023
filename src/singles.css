@@ -29,14 +29,9 @@
     align-self: center;
 
     h2 {
+      margin-top: 10px;
       color: #ECDF5C;
     }
-  }
-
-  .logiciels-competences-projet img {
-    width: 75px;
-    height: auto;
-    margin: 0 10px 0 0;
   }
 
   .un-logiciel {
@@ -77,8 +72,10 @@
   flex-direction: column;
   align-items: center;
   justify-self: center;
-
-  img {
+  h1{
+    margin-bottom: 25px;
+  }
+  div {
     width: 70%;
   }
 }
@@ -93,6 +90,7 @@
 }
 
 .single-demo-video h1 {
+  margin-bottom: 25px;
   justify-content: center;
 }
 
@@ -187,6 +185,7 @@
   margin: 30px 0 0 0;
 }
 .projet-section-slider h1 {
+  margin-bottom: 25px;
   display: flex;
   justify-content: center;
 }
@@ -210,7 +209,7 @@
   animation: 10s slider infinite;
 }
 
-#slider figure img {
+#slider figure div {
   width: 20%;
   float: left;
 }
@@ -274,12 +273,6 @@
       display: grid;
       grid-template-columns: 1fr 50px 1fr;
       grid-template-rows: 1fr 10px 1fr;
-    }
-
-    .logiciels-competences-projet img {
-      width: 75px;
-      height: auto;
-      margin: 0 10px 0 0;
     }
 
     .un-logiciel {
@@ -376,12 +369,6 @@
       grid-template-rows: 1fr 10px 1fr;
     }
 
-    .logiciels-competences-projet img {
-      width: 75px;
-      height: auto;
-      margin: 0 10px 0 0;
-    }
-
     .un-logiciel {
       grid-column-start: 1;
       grid-column-end: 2;
@@ -474,12 +461,6 @@
       grid-template-rows: 1fr 10px 1fr;
     }
 
-    .logiciels-competences-projet img {
-      width: 75px;
-      height: auto;
-      margin: 0 10px 0 0;
-    }
-
     .un-logiciel {
       grid-column-start: 1;
       grid-column-end: 2;
@@ -560,11 +541,6 @@
       grid-template-rows: 1fr 10px 1fr;
     }
 
-    .logiciels-competences-projet img {
-      width: 75px;
-      height: auto;
-      margin: 0 10px 0 0;
-    }
 
     .un-logiciel {
       grid-column-start: 1;
@@ -642,7 +618,7 @@
     align-items: center;
     justify-self: center;
 
-    img {
+    div {
       width: 75%;
     }
 
