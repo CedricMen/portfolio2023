@@ -1,6 +1,9 @@
 /* ------------ a-propos ------------ */
+.about{
+  margin-top: 100px;
+}
 .a-propos {
-    padding-top: 90px;
+    padding-top: 35px;
     height: 100%;
     width: 100vw;
     display: grid;
@@ -144,7 +147,7 @@
   
   .boiteSouris {
     width: 24px;
-    margin: 45px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
   }

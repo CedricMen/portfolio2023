@@ -15,7 +15,7 @@ const Home = () => {
             <h1>Cédric Ménard</h1>
             <p>Développeur Web <span class="texte-alt-color">& </span>
               Créateur média</p>
-            <Link to='/contact'><button type="button">Voir mes projets</button></Link>
+            <Link to='/projets'><button type="button">Voir mes projets</button></Link>
           </div>
         </section>
       </div>

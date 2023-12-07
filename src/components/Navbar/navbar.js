@@ -24,7 +24,7 @@ const Navbar = () => {
           -
         </button>
         <Link to='/' onClick={closeMenu}>&#8226; Accueil</Link>
-        <Link to='/' onClick={closeMenu}>&#8226; Projets</Link>
+        <Link to='/projets' onClick={closeMenu}>&#8226; Projets</Link>
         <Link to='/about' onClick={closeMenu}>&#8226; À propos</Link>
         <Link to='/contact' onClick={closeMenu}>&#8226; Contact</Link>
       </div>

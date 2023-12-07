@@ -1,0 +1,40 @@
+.image-projet{
+    background: url(../../assets/mockup-projet-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titre-logo-projet-1{
+    background: url(../../assets/touchDesigner-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.titre-logo-projet-2{
+    background: url(../../assets/blender-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.titre-logo-projet-3{
+    background: url(../../assets/python-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.course-programmation{
+    background: url(../../assets/course-programmation.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.modele-voiture-sans-texture{
+    background: url(../../assets/course-voiture-sans-texture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}

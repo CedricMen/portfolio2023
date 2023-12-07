@@ -15,7 +15,7 @@ const Contact = () => {
     }, []);
   return (
     
-    <div className="contact" id="contact">
+    <div className="contact" id="myContact">
       <section class="contact-section" id="section-contact">
         <div class="grid-contact">
           <div class="info-contact">

@@ -57,3 +57,48 @@
   overflow: hidden;
   position: fixed;
 }
+
+@media screen and (max-width: 1366px) {
+  .video-demo-bg video{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .video-demo-bg video{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-demo-bg video{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banderolle{
+    position: absolute;
+    width: 100vw;
+    height: 300px;
+    left: 0;
+    top: 25%;
+
+    background: rgba(131, 92, 237, 0.45);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

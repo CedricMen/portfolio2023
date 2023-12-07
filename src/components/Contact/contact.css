@@ -104,6 +104,76 @@ textarea {
 #section-contact{
     z-index: 2;
 }
+
+@media screen and (max-width: 768px) {
+
+    .sociaux {
+      width: 100vw;
+      display: flex;
+      justify-content: start;
+    }
+    .sociaux a {
+      margin: 0 35px;
+    }
+    .formulaire-contact a img {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .titre-page {
+      text-align: center;
+      width: 100vw;
+    }
+    .contact {
+      width: 100vw;
+      height: 100%;
+    }
+    .grid-contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      width: 100vw;
+    }
+    .info-contact {
+      grid-column-start: 2;
+      grid-column-end: 3;
+  
+      grid-row-start: 1;
+      grid-row-end: 2;
+      width: 100vw;
+      text-align: center;
+    }
+    .formulaire-contact {
+      grid-column-start: 2;
+      grid-column-end: 3;
+  
+      grid-row-start: 2;
+      grid-row-end: 3;
+      justify-self: center;
+      align-self: center;
+    }
+    .info-contact > * {
+      justify-self: center;
+    }
+    .info-contact h2 {
+      font-size: 24px;
+    }
+    .sociaux {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+    .sociaux a {
+      margin: 0 10px;
+    }
+    .formulaire-contact a img {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
 #tsparticles{
     z-index: 1;
 }
