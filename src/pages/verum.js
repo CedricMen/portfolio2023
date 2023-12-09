@@ -1,5 +1,5 @@
 
-<div class="intro-projet">
+<section class="intro-projet">
     <div class="image-projet"><img alt="projet-jeux-de-course" src="images/mockup-projet-3.png"></div>
     <div class="texte-projet">
         <h1>Verum</h1>
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <section class="figma-verum"
          data-aos="zoom-in-down" data-aos-duration="1000">

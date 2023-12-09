@@ -1,0 +1,89 @@
+.image-projet{
+    background: url(../../assets/mockup-projet-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titre-logo-projet-1{
+    background: url(../../assets/webstorm-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-2{
+    background: url(../../assets/phpstorm-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-3{
+    background: url(../../assets/icone-wordpress.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-4{
+    background: url(../../assets/html5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-5{
+    background: url(../../assets/css-icon-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-6{
+    background: url(../../assets/javascript-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-7{
+    background: url(../../assets/php-icone-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 20px 10px 0 0;
+}
+.refonte-site-programmation{
+    background: url(../../assets/programmation-front-page.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.refonte-site-programmation-2{
+    background: url(../../assets/refonte-acf.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.refonte-site-programmation-3{
+    background: url(../../assets/refonte-cpt.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.refonte-site-programmation-4{
+    background: url(../../assets/refonte-github.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}

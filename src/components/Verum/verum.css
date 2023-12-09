@@ -1,0 +1,49 @@
+.image-projet{
+    background: url(../../assets/mockup-projet-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titre-logo-projet-1{
+    background: url(../../assets/figma-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-2{
+    background: url(../../assets/figma-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.prototype-sketch{
+    background: url(../../assets/verum-acceuil.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.prototype-lo-fi{
+    background: url(../../assets/verum-prototypage-low-fi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.prototype-hi-fi{
+    background: url(../../assets/verum-prototypage-high-fi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.prototype-final{
+    background: url(../../assets/verum-prototypage-final.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
