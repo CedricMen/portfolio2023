@@ -13,7 +13,6 @@ import DiscoChef from "./components/DiscoChef/disco-chef-tv";
 import Cursor from "./components/Cursor/cursor";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-
 function App() {
   return (
     <Router>
