@@ -5,12 +5,13 @@ import 'aos/dist/aos.css'
 
 const Verum = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         AOS.init();
     }, []);
     return (
         <div className="ProjetVerum" id="MyProjetVerum">
         <section class="intro-projet">
-            <div class="image-projet"></div>
+            <div class="image-projet image-projet-3"></div>
             <div class="texte-projet">
                 <h1>Verum</h1>
                 <h2>Figma <span class="texte-alt-color">|</span> Expérience Intéractive</h2>

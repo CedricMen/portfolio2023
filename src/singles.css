@@ -96,8 +96,8 @@
 
 .single-demo-video iframe {
   justify-content: center;
-  width: 70%;
-  height: 70%;
+  width: 1600px !important;
+  height: 900px !important;
 
   margin: 0;
   padding: 0;
@@ -111,11 +111,6 @@
   margin: 0 0 5% 0;
 }
 
-.citrouille-demo-video video {
-  justify-content: center;
-  height: 100%;
-  width: 75vw;
-}
 .burger-3d-sketchfab{
   display: flex;
   flex-direction: column;
@@ -134,6 +129,7 @@
   height: 80vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .single-voir-site a {
   display: flex;
@@ -168,6 +164,7 @@
 
  /* section figma  */
 .figma-verum {
+  margin: 0px 0px 100px 0px;
   display: flex;
   justify-content: center;
   height: 100vh;

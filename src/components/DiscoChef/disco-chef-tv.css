@@ -1,0 +1,116 @@
+.image-projet-6{
+    background: url(../../assets/mockup-projet-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titre-logo-projet-1{
+    background: url(../../assets/blender-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-2{
+    background: url(../../assets/unity-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-3{
+    background: url(../../assets/3D.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.burger-3d-sketchfab h1 {
+    margin-bottom: 20px;
+}
+.modele-brochette{
+    background: url(../../assets/brochette-rendu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-burger{
+    background: url(../../assets/burger-rendu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-croque-monsieur{
+    background: url(../../assets/croque_monsieur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-steak{
+    background: url(../../assets/steak-cuit-rendu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-fromage-nrml{
+    background: url(../../assets/fromage-avec-nrml-rendu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-laitue{
+    background: url(../../assets/laitue-rendu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-pain{
+    background: url(../../assets/pain-rendu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-tomate{
+    background: url(../../assets/rendu-tomate.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modele-fromage{
+    background: url(../../assets/rendu-fromage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.modelisation-blender{
+    background: url(../../assets/modelisation-blender.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.substance{
+    background: url(../../assets/texture-substance.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.jeu{
+    background: url(../../assets/jeu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}

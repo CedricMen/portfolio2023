@@ -5,13 +5,13 @@ import 'aos/dist/aos.css'
 
 const Refonte = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         AOS.init();
     }, []);
     return (
         <div className="refonteSite" id="MyRefonteSite">
-            
         <section class="intro-projet">
-            <div class="image-projet"></div>
+            <div class="image-projet image-projet-2"></div>
             <div class="texte-projet">
                 <h1>Refonte d’un site</h1>
                 <h2>WordPress <span class="texte-alt-color">|</span> HTML/CSS/JS</h2>

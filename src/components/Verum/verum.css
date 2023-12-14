@@ -1,7 +1,9 @@
-.image-projet{
+.image-projet-3{
     background: url(../../assets/mockup-projet-3.png);
     background-size: contain;
     background-repeat: no-repeat;
+    width: 740px !important;
+    height: 491px !important;
 }
 .titre-logo-projet-1{
     background: url(../../assets/figma-icon.png);

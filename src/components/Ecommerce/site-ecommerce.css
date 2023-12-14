@@ -1,0 +1,65 @@
+.image-projet-4{
+    background: url(../../assets/mockup-projet-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titre-logo-projet-1{
+    background: url(../../assets/icone-wordpress.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-2{
+    background: url(../../assets/WooCommerce_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-3{
+    background: url(../../assets/icone-wordpress.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.titre-logo-projet-4{
+    background: url(../../assets/css-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 62px;
+    margin: 10px 10px 0 0;
+}
+.techtim-code{
+    background: url(../../assets/techtim-code-promo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.techtim-produits{
+    background: url(../../assets/techtim-produits.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.techtim-categories{
+    background: url(../../assets/techtim-categories.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}
+.techtim-variation{
+    background: url(../../assets/techtim-variation.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+}

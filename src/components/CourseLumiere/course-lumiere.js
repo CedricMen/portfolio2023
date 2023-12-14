@@ -5,12 +5,13 @@ import 'aos/dist/aos.css'
 
 const CourseLumiere = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         AOS.init();
     }, []);
     return (
             <div className="courseLumiere" id="MaCourseLumiere">    
             <section class="intro-projet">
-                <div class="image-projet"></div>
+                <div class="image-projet image-projet-1"></div>
                 <div class="texte-projet">
                     <h1>Course Lumière</h1>
                     <h2>Touch Designer <span class="texte-alt-color">|</span> Jeu</h2>
